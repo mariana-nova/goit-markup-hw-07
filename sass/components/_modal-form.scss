@@ -1,0 +1,108 @@
+.modal-prin {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  text-align: center;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.info-window {
+  width: 448px;
+  margin-top: 5px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  color: rgba(33, 33, 33, 1);
+  padding-left: 40px;
+  &:focus-visible {
+    outline: var(--brand-color) solid 1px;
+  }
+}
+.info-window:hover + .form-icons {
+  fill: var(--brand-color);
+}
+
+.window-modal {
+  display: flex;
+  flex-direction: column;
+  width: 448px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  & :hover {
+    border-color: var(--brand-color);
+  }
+}
+
+.window-modal-comment {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 448px;
+  margin-left: 50px;
+}
+.window-modal-check {
+  width: 448px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  margin-left: 40px;
+}
+.checkbox {
+  width: 16px;
+  height: 15px;
+  margin-right: 8.38px;
+  margin-top: 5px;
+  color: var(--text-color);
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.bulletin {
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+}
+.parrafo-modal {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+  color: #757575;
+  display: flex;
+  margin: auto;
+}
+.modal-coment {
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  padding-top: 12px;
+  padding-left: 20px;
+  &:focus-visible {
+    outline: var(--brand-color) solid 1px;
+  }
+  &:hover {
+    border-color: var(--brand-color);
+  }
+}
+
+.textarea {
+  resize: none;
+}
